@@ -1,0 +1,7 @@
+ls 
+ls -al
+ls -al > sortie.txt
+sh sortie.sh 2> err.txt | more
+cat mini_shell.py | tr 'a-z' 'A-2' | more > bonjour.txt
+ps -aux | sort -k1n 2>> /dev/null | tr 'a-z' 'A-Z' | tee toto.txt | more 
+
